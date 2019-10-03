@@ -1,3 +1,4 @@
+""" Test file"""
 import unittest
 
 from rectangle import inner_functions_assignment
@@ -5,7 +6,7 @@ from rectangle import inner_functions_assignment
 
 class MyTestCase(unittest.TestCase):
     def test_measurements_area(self):
-        self.assertEqual(inner_functions_assignment.measurements([6, 3.4]), 'Area  = 13.6','Perimeter  = 14.8')
+        self.assertEqual(inner_functions_assignment.measurements([4, 3.4]), 'Area  = 13.6','Perimeter  = 14.8')
 
 
 if __name__ == '__main__':
